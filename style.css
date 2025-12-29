@@ -1,18 +1,17 @@
 body {
     font-family: Arial, sans-serif;
     background: #8B653B;
-    padding: 20px;
 }
 
 nav{
     max-height: fit-content;
     display: flex;
-    justify-content: center;
-    border-bottom: 5px solid #e7ddd4;
+    border-bottom: 1.5px solid #e7ddd4;
 }
 
 nav img{
-    width: 70px;
+    width: 100px;
+    margin-left: 20px;
 
 }
 
@@ -20,7 +19,7 @@ nav img{
     max-width: 100%;
     margin: auto;
     background: #8B653B;
-    padding: 25px;
+    padding: 25px 45px;
     border-radius: 10px;
     display: flex;
     flex-direction:column;
@@ -85,5 +84,5 @@ button:hover {
 }
 
 #precoPeça, #precoMarkup{
-    font-size: large;
+    font-size:larger;
 }
